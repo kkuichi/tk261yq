@@ -16,7 +16,7 @@ Práca sa zaoberá predikciou odozvy zákazníkov na priame marketingové kampan
 ## Štruktúra repozitára
 
 ```
-├── Experiments3.ipynb      # Hlavný notebook – všetky experimenty
+├── Experiments.ipynb      # Hlavný notebook – všetky experimenty
 ├── marketing_campaign.csv  # Vstupný dataset (Kaggle)
 └── README.md
 ```
@@ -67,7 +67,7 @@ pip install imbalanced-learn
 
 1. Stiahni alebo naklonuj repozitár
 2. Uisti sa, že súbor `marketing_campaign.csv` je v rovnakom adresári ako notebook
-3. Otvor `Experiments3.ipynb` v Jupyter Notebook alebo JupyterLab
+3. Otvor `Experiments.ipynb` v Jupyter Notebook alebo JupyterLab
 4. Spusti bunky postupne od začiatku (`Run All` alebo po jednej)
 
 > **Poznámka:** Experimenty na seba nadväzujú – premenné (napr. `X_train_res`, `y_train_res`) sa prenášajú medzi sekciami. Odporúča sa spúšťať notebook vždy od začiatku.
